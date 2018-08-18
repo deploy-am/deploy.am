@@ -1,16 +1,6 @@
 <template>
     <div class="about">
-        <el-card v-for="o in 4" :key="o" class="box-card">
-            <div slot="header" class="clearfix">
-                <span class="podcast-title">{{'Deploy.fm #' + o + ': ' }}</span>
-                <span class="podcast-subtitle">Subtitle!</span>
-            </div>
-            <div class="text item">
-                <p>コンテンツ概要をつらつらコンテンツ概要をつらつらコンテンツ概要をつらつら</p>
-                <p>スピーカー: inductor &amp; ひよこ大佐</p>
-                <p>ゲスト: aさん</p>
-            </div>
-        </el-card>
+        <p>{{this.$route.params.id}}</p>
     </div>
 </template>
 <style>
