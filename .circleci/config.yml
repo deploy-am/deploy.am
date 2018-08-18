@@ -2,18 +2,12 @@ version: 2
 jobs:
   build:
     docker:
-      - image: node:alpine
+      - image: inductor/firebase-cli-alpine
     working_directory: ~/project
     steps:
       - checkout
-      - run:
-          name: "install pkg"
-          command: apk add --no-cache ca-certificates
       - restore_cache:
           key: pb-frontend-{{ .Branch }}-{{ checksum "package.json" }}
-      - run:
-          name: "Run yarn install"
-          command: yarn global add firebase-tools
       - run:
           name: "Run yarn install"
           command: yarn
