@@ -2,16 +2,16 @@ version: 2
 jobs:
   build:
     docker:
-      - image: inductor/hugo-firebase-tools:latest
+      - image: node:alpine
     working_directory: ~/project
     steps:
       - checkout
       - run:
-          name: "Pull Hugo Theme"
-          command: git submodule init && git submodule update
+          name: "Run yarn install"
+          command: yarn
       - run:
-          name: "Run Hugo"
-          command: HUGO_ENV=production hugo -v -s ~/project/
+          name: "Vue CLI build"
+          command: yarn build
 #      - run:
 #          name: "Test Website"
 #          command: htmlproofer ~/project/public --allow-hash-href --check-html --empty-alt-ignore
