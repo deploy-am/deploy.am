@@ -1,5 +1,7 @@
 <template>
   <div class="hello">
+    <h1>{{ msg }}</h1>
+    <img alt="Vue logo" src="../assets/logo.png">
     <p>コードを書かない開発者のためのPodcast</p>
   </div>
 </template>

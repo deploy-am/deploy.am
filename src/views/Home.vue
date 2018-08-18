@@ -1,7 +1,5 @@
 <template>
   <div class="home">
-    <h1>{{ msg }}</h1>
-    <img alt="Vue logo" src="../assets/logo.png">
     <TopMessage msg="Deploy.am Podcast"/>
   </div>
 </template>
