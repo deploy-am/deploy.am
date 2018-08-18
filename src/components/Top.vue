@@ -1,6 +1,6 @@
 <template>
     <div class="top">
-        <h1>{{ msg }}</h1>
+        <h1>Deploy.am Podcast</h1>
         <img alt="Vue logo" src="../assets/logo.png">
         <h2 class="slogan">コードを書かない開発者のためのPodcast</h2>
     </div>

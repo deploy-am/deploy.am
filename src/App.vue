@@ -1,13 +1,13 @@
 <template>
     <div id="app">
         <div class="home">
-            <TopMessage msg="Deploy.am Podcast"/>
+            <TopMessage/>
         </div>
         <div class="navbar">
-            <MyNavBar></MyNavBar>
+            <MyNavBar/>
         </div>
         <div class="footer">
-            <MyFooter></MyFooter>
+            <MyFooter/>
         </div>
 
     </div>
