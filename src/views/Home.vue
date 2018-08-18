@@ -1,17 +1,17 @@
 <template>
-  <div class="home">
-    <TopMessage msg="Deploy.am Podcast"/>
-  </div>
+    <div class="disctiption">
+        <content>
+            <p>Deploy.fmは、技術系Podcastの中でも開発をあまりしない</p>
+            <li>インフラ(構築やら運用やら)</li>
+            <li>運用(情シスやら社内SEやら)</li>
+            <li>サポートエンジニア</li>
+            <p>などの話を中心に、いろいろな話をしていくPodcastです。</p>
+        </content>
+    </div>
 </template>
 
-<script>
-// @ is an alias to /src
-import TopMessage from '@/components/Top.vue'
-
-export default {
-  name: 'home',
-  components: {
-    TopMessage
-  }
-}
-</script>
+<style>
+    .disctiption {
+        text-align: left;
+    }
+</style>
