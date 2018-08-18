@@ -6,6 +6,11 @@ jobs:
     working_directory: ~/project
     steps:
       - checkout
+      - restore_cache:
+          key: pb-frontend-{{ .Branch }}-{{ checksum "package.json" }}
+      - run:
+          name: "Run yarn install"
+          command: yarn global add firebase-tools
       - run:
           name: "Run yarn install"
           command: yarn
@@ -15,6 +20,11 @@ jobs:
 #      - run:
 #          name: "Test Website"
 #          command: htmlproofer ~/project/public --allow-hash-href --check-html --empty-alt-ignore
+      - save_cache:
+          key: pb-frontend-{{ .Environment.CIRCLE_SHA1 }}
+          paths:
+            - ~/project/node_modules
+            - ~/.cache/yarn/
       - run:
           name: "Deploy"
           command: firebase deploy --only hosting --token "$FIREBASE_TOKEN"
