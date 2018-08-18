@@ -7,18 +7,15 @@ jobs:
     steps:
       - checkout
       - restore_cache:
-          key: pb-frontend-{{ .Branch }}-{{ checksum "package.json" }}
+          key: deploy-am-{{ .Branch }}-{{ checksum "package.json" }}
       - run:
           name: "Run yarn install"
           command: yarn
       - run:
           name: "Vue CLI build"
           command: yarn build
-#      - run:
-#          name: "Test Website"
-#          command: htmlproofer ~/project/public --allow-hash-href --check-html --empty-alt-ignore
       - save_cache:
-          key: pb-frontend-{{ .Environment.CIRCLE_SHA1 }}
+          key: deploy-am-{{ .Environment.CIRCLE_SHA1 }}
           paths:
             - ~/project/node_modules
             - ~/.cache/yarn/
