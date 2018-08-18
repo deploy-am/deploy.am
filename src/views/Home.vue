@@ -1,7 +1,7 @@
 <template>
     <div class="disctiption">
         <content>
-            <p>Deploy.fmは、技術系Podcastの中でも開発をあまりしない</p>
+            <p>Deploy.amは、技術系Podcastの中でも開発をあまりしない</p>
             <li>インフラ(構築やら運用やら)</li>
             <li>運用(情シスやら社内SEやら)</li>
             <li>サポートエンジニア</li>

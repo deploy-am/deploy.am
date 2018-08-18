@@ -2,7 +2,7 @@
     <div class="about">
         <el-card v-for="o in 4" :key="o" class="box-card">
             <div slot="header" class="clearfix">
-                <span class="podcast-title">{{'Deploy.fm #' + o + ': ' }}</span>
+                <span class="podcast-title">{{'Deploy.am #' + o + ': ' }}</span>
                 <span class="podcast-subtitle">Subtitle!</span>
             </div>
             <div class="text item">
