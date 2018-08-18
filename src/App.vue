@@ -3,20 +3,13 @@
         <div class="home">
             <TopMessage msg="Deploy.am Podcast"/>
         </div>
-        <div id="nav">
-            <el-menu :default-active="activeIndex" class="el-menu" mode="horizontal" @select="handleSelect">
-                <el-menu-item index="1">
-                    <router-link to="/">Home</router-link>
-                </el-menu-item>
-                <el-menu-item index="2">
-                    <router-link to="/podcast">Podcast</router-link>
-                </el-menu-item>
-                <el-menu-item index="3">
-                    <router-link to="/about">About</router-link>
-                </el-menu-item>
-            </el-menu>
-            <router-view/>
+        <div class="navbar">
+            <MyNavBar></MyNavBar>
         </div>
+        <div class="footer">
+            <MyFooter></MyFooter>
+        </div>
+
     </div>
 </template>
 
@@ -28,17 +21,13 @@
         text-align: center;
         color: #2c3e50;
     }
-
-    #nav {
-        width: 60%;
-        margin: auto;
-    }
-
 </style>
 
 <script>
     // @ is an alias to /src
-    import TopMessage from '@/components/Top.vue'
+    import TopMessage from './components/Top.vue'
+    import MyNavBar from './components/NavBar.vue'
+    import MyFooter from './components/Footer.vue'
 
     export default {
         data() {
@@ -54,7 +43,9 @@
         },
         name: 'home',
         components: {
-            TopMessage
+            TopMessage,
+            MyNavBar,
+            MyFooter
         }
     }
 </script>
