@@ -15,7 +15,7 @@ jobs:
           name: "Vue CLI build"
           command: yarn build
       - save_cache:
-          key: deploy-am-{{ .Environment.CIRCLE_SHA1 }}
+          key: deploy-am-{{ .Branch }}-{{ checksum "package.json" }}
           paths:
             - ~/project/node_modules
             - ~/.cache/yarn/
