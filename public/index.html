@@ -1,29 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
+<html lang="ja-JP">
+<head>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-PDCPXVB');</script>
+    <script>(function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-PDCPXVB');</script>
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                appId: '905397412998820',
+                xfbml: true,
+                version: 'v3.1'
+            });
+            FB.AppEvents.logPageView();
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {
+                return;
+            }
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
     <!-- End Google Tag Manager -->
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <link rel="manifest" href="<%= BASE_URL %>manifest.json">
-    <title>deploy.am</title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but deploy.am doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PDCPXVB"
-                    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
+    <title>Deploy.am</title>
+    <meta name="description" content="コードを書かない開発者のためのPodcast">
+    <meta name="keywords" content="podcast,deploy.fm">
+    <meta name="robots" content="index,follow,noydir,noodp">
+    <meta property="fb:app_id" content="905397412998820">
+    <meta property="og:title" content="Deploy.am">
+    <meta property="og:description"
+          content="コードを書かない開発者のためのPodcast">
+    <meta property="og:image" content="/img/ogp_fb.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="https://deploy.am/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Deploy.am">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="deploy_am">
+    <meta name="twitter:creator" content="deploy_am">
+    <meta name="twitter:image" content="/img/ogp_tw.jpg">
+    <link rel="canonical" href="https://deploy.am/">
+</head>
+<body>
+<noscript>
+    <strong>We're sorry but deploy.am doesn't work properly without JavaScript enabled. Please enable it to
+        continue.</strong>
+</noscript>
+<div id="app"></div>
+<!-- built files will be auto injected -->
+</body>
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PDCPXVB"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
 </html>
