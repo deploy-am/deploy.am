@@ -15,8 +15,40 @@
     </div>
 </template>
 <style>
-    #nav {
-        width: 60%;
-        margin: auto;
+    @media screen and (max-width: 427px) {
+        #nav {
+            width: 80%;
+            margin: auto;
+        }
+    }
+    @media screen and (max-width: 324px) {
+        #nav {
+            width: 100%;
+            margin: auto;
+        }
+    }
+
+
+    @media screen and (min-width: 428px) {
+        #nav {
+            width: 60%;
+            margin: auto;
+        }
     }
 </style>
+
+<script>
+    export default {
+        data() {
+            return {
+                activeIndex: '1',
+                activeIndex2: '1'
+            };
+        },
+        methods: {
+            handleSelect(key, keyPath) {
+                console.log(key, keyPath);
+            }
+        }
+    }
+</script>
