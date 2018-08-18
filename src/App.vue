@@ -3,7 +3,7 @@
         <div class="home">
             <TopMessage/>
         </div>
-        <div class="navbar">
+        <div class="contents">
             <MyNavBar/>
         </div>
         <div class="footer">
@@ -20,6 +20,9 @@
         -moz-osx-font-smoothing: grayscale;
         text-align: center;
         color: #2c3e50;
+    }
+    .contents {
+        padding-bottom: 80px;
     }
 </style>
 
