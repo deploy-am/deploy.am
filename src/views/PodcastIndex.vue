@@ -13,22 +13,22 @@
         <!--</el-card>-->
         <el-card class="box-card">
             <div slot="header" class="clearfix">
-                <span class="podcast-title">Coming soon...</span>
+                <span class="podcast-title">Deploy.am #0</span>
                 <span class="podcast-subtitle"></span>
             </div>
             <div class="text item">
                 <p>Coming soon...</p>
             </div>
         </el-card>
-        <router-link to="/podcast/1"><el-card class="box-card">
-            <div slot="header" class="clearfix">
-                <span class="podcast-title">Deploy.am #1:</span>
-                <span class="podcast-subtitle">AudioPlayer Test!</span>
-            </div>
-            <div class="text item">
-                <p>Coming soon...</p>
-            </div>
-        </el-card></router-link>
+        <!--<router-link to="/podcast/1"><el-card class="box-card">-->
+            <!--<div slot="header" class="clearfix">-->
+                <!--<span class="podcast-title">Deploy.am #1:</span>-->
+                <!--<span class="podcast-subtitle">AudioPlayer Test!</span>-->
+            <!--</div>-->
+            <!--<div class="text item">-->
+                <!--<p>Coming soon...</p>-->
+            <!--</div>-->
+        <!--</el-card></router-link>-->
     </div>
 </template>
 <style>
@@ -61,7 +61,7 @@
 
     @media screen and (min-width: 428px) {
         span.podcast-subtitle {
-            padding-right: 40%;
+            padding-right: 60%;
         }
     }
 
