@@ -28,22 +28,22 @@
 
 <script>
     // @ is an alias to /src
-    import TopMessage from './components/Top.vue'
-    import MyNavBar from './components/NavBar.vue'
-    import MyFooter from './components/Footer.vue'
+    import TopMessage from '@/components/Top.vue'
+    import MyNavBar from '@/components/NavBar.vue'
+    import MyFooter from '@/components/Footer.vue'
 
     export default {
-        data() {
-            return {
-                activeIndex: '1',
-                activeIndex2: '1'
-            };
-        },
-        methods: {
-            handleSelect(key, keyPath) {
-                console.log(key, keyPath);
-            }
-        },
+        // data() {
+        //     return {
+        //         activeIndex: '1',
+        //         activeIndex2: '1'
+        //     };
+        // },
+        // methods: {
+        //     handleSelect(key, keyPath) {
+        //         console.log(key, keyPath);
+        //     }
+        // },
         name: 'home',
         components: {
             TopMessage,

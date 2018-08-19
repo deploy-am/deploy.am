@@ -20,6 +20,15 @@
                 <p>Coming soon...</p>
             </div>
         </el-card>
+        <router-link to="/podcast/1"><el-card class="box-card">
+            <div slot="header" class="clearfix">
+                <span class="podcast-title">Deploy.am #1:</span>
+                <span class="podcast-subtitle">AudioPlayer Test!</span>
+            </div>
+            <div class="text item">
+                <p>Coming soon...</p>
+            </div>
+        </el-card></router-link>
     </div>
 </template>
 <style>
