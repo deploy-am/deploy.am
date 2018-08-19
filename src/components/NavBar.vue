@@ -21,13 +21,13 @@
             margin: auto;
         }
     }
+
     @media screen and (max-width: 324px) {
         #nav {
             width: 100%;
             margin: auto;
         }
     }
-
 
     @media screen and (min-width: 428px) {
         #nav {

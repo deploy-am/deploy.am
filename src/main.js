@@ -9,13 +9,16 @@ import {faEnvelope, faUser} from '@fortawesome/free-solid-svg-icons'
 import {faFacebook, faTwitter} from '@fortawesome/free-brands-svg-icons'
 import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome'
 import './registerServiceWorker'
+import VueI18n from 'vue-i18n'
 
-library.add(faEnvelope)
-library.add(faUser)
-library.add(faFacebook)
-library.add(faTwitter)
+Vue.use(VueI18n);
 
-Vue.component('font-awesome-icon', FontAwesomeIcon)
+library.add(faEnvelope);
+library.add(faUser);
+library.add(faFacebook);
+library.add(faTwitter);
+
+Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 Vue.use(Element);
 
@@ -24,5 +27,6 @@ Vue.config.productionTip = false
 new Vue({
     router,
     store,
+    i18n,
     render: h => h(App)
 }).$mount('#app');
