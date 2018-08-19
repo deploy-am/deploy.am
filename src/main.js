@@ -11,7 +11,13 @@ import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome'
 import './registerServiceWorker'
 import VueI18n from 'vue-i18n'
 
+const data = require('./message.json');
+
 Vue.use(VueI18n);
+const i18n = new VueI18n({
+    locale: 'ja', // デフォルト言語はjaにしておくが、ブラウザの言語を拾ってきてここに入れる => 言語変更されたら書き換える
+    messages: data
+});
 
 library.add(faEnvelope);
 library.add(faUser);
