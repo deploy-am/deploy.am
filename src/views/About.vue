@@ -26,7 +26,7 @@
                 </div>
             </el-card>
             <h2>このサイトについて</h2>
-            <p>このサイトは、フロント素人のinductorがVue.jsの勉強目的も兼ねて作っているため非常に作りが荒いです。</p>
+            <p>このサイトは、フロント素人のinductorがVue.jsの勉強目的も兼ねて作っているため、非常に作りが荒いです。</p>
             <p>サイトのソースは<a href="https://github.com/deploy-am/deploy.am">GitHub</a>で公開しています。気になった方はPull Requestを送っていただけますと幸いです。</p>
         </content>
     </div>
