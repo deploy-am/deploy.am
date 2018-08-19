@@ -2,7 +2,7 @@
     <div class="top">
         <h1>Deploy.am Podcast</h1>
         <img alt="Vue logo" src="../assets/logo.png">
-        <h2 class="slogan">コードを書かない開発者のためのPodcast</h2>
+        <h2 class="slogan">コードを書かない開発者でも楽しめるPodcast</h2>
     </div>
 </template>
 
