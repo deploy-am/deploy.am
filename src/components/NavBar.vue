@@ -1,6 +1,6 @@
 <template>
     <div id="nav">
-        <el-menu :default-active="activeIndex" class="el-menu" mode="horizontal" @select="handleSelect">
+        <el-menu class="el-menu" mode="horizontal">
             <el-menu-item index="1">
                 <router-link to="/">Home</router-link>
             </el-menu-item>
