@@ -8,7 +8,7 @@
   "lang": "Japanese",
   "orientation": "portrait",
   "description": "コードを書かないエンジニアでも楽しめるPodcast",
-  "scope": "/",
+  "scope": "https://deploy.am/",
   "icons": [{
     "src": "https://deploy.am/img/icons/android-chrome-192x192.png",
     "sizes": "192x192"
@@ -49,13 +49,13 @@
     "src": "https://deploy.am/img/icons/ms-icon-70x70.png",
     "sizes": "70x70"
   }, {
-    "src": "https://deploy.am/img/icons/android-icon-144x144.png",
+    "src": "https://deploy.am/img/icons/ms-icon-144x144.png",
     "sizes": "144x144"
   }, {
-    "src": "https://deploy.am/img/icons/android-icon-150x150.png",
+    "src": "https://deploy.am/img/icons/ms-icon-150x150.png",
     "sizes": "150x150"
   }, {
-    "src": "https://deploy.am/img/icons/android-icon-310x310.png",
+    "src": "https://deploy.am/img/icons/ms-icon-310x310.png",
     "sizes": "310x310"
   }]
 }
