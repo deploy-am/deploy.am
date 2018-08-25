@@ -10,36 +10,52 @@
   "description": "コードを書かないエンジニアでも楽しめるPodcast",
   "scope": "/",
   "icons": [{
-      "src": "https://deploy.am/img/icons/android-chrome-192x192.png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "https://deploy.am/img/icons/android-chrome-512x512.png",
-      "sizes": "512x512"
-    },
-    {
-      "src": "https://deploy.am/img/icons/android-icon-36x36.png",
-      "sizes": "36x36"
-    },
-    {
-      "src": "https://deploy.am/img/icons/android-icon-48x48.png",
-      "sizes": "48x48"
-    },
-    {
-      "src": "https://deploy.am/img/icons/android-icon-72x72.png",
-      "sizes": "72x72"
-    },
-    {
-      "src": "https://deploy.am/img/icons/android-icon-96x96.png",
-      "sizes": "96x96"
-    },
-    {
-      "src": "https://deploy.am/img/icons/android-icon-144x144.png",
-      "sizes": "144x144"
-    },
-    {
-      "src": "https://deploy.am/img/icons/android-icon-192x192.png",
-      "sizes": "192x192"
-    }
-  ]
+    "src": "https://deploy.am/img/icons/android-chrome-192x192.png",
+    "sizes": "192x192"
+  }, {
+    "src": "https://deploy.am/img/icons/android-chrome-512x512.png",
+    "sizes": "512x512"
+  }, {
+    "src": "https://deploy.am/img/icons/android-icon-36x36.png",
+    "sizes": "36x36"
+  }, {
+    "src": "https://deploy.am/img/icons/android-icon-48x48.png",
+    "sizes": "48x48"
+  }, {
+    "src": "https://deploy.am/img/icons/android-icon-72x72.png",
+    "sizes": "72x72"
+  }, {
+    "src": "https://deploy.am/img/icons/android-icon-96x96.png",
+    "sizes": "96x96"
+  }, {
+    "src": "https://deploy.am/img/icons/android-icon-144x144.png",
+    "sizes": "144x144"
+  }, {
+    "src": "https://deploy.am/img/icons/android-icon-192x192.png",
+    "sizes": "192x192"
+  }, {
+    "src": "https://deploy.am/img/icons/apple-icon-76x76.png",
+    "sizes": "76x76"
+  }, {
+    "src": "https://deploy.am/img/icons/apple-icon-120x120.png",
+    "sizes": "120x120"
+  }, {
+    "src": "https://deploy.am/img/icons/android-icon-152x152.png",
+    "sizes": "152x152"
+  }, {
+    "src": "https://deploy.am/img/icons/android-icon-180x180.png",
+    "sizes": "180x180"
+  }, {
+    "src": "https://deploy.am/img/icons/ms-icon-70x70.png",
+    "sizes": "70x70"
+  }, {
+    "src": "https://deploy.am/img/icons/android-icon-144x144.png",
+    "sizes": "144x144"
+  }, {
+    "src": "https://deploy.am/img/icons/android-icon-150x150.png",
+    "sizes": "150x150"
+  }, {
+    "src": "https://deploy.am/img/icons/android-icon-310x310.png",
+    "sizes": "310x310"
+  }]
 }
