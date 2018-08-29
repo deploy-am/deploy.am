@@ -1,5 +1,8 @@
 # deploy.am
 
+
+[![CircleCI](https://img.shields.io/circleci/project/github/RedSparr0w/node-csgo-parser.svg)](https://circleci.com/gh/deploy-am/deploy.am)
+
 ## Dependency requirement for development
 - yarn(1.9.x preferred)
 - Node.js 10.x(10.8.0 and later preferred)
