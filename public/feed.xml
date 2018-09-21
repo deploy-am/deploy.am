@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:itunesu="http://www.itunesu.com/feed" version="2.0">
+    <channel>
+        <link>https://deploy.am</link>
+        <language>ja-JP</language>
+        <copyright>&#xA9;2018</copyright>
+        <webMaster>kela@inductor.me (inductor)</webMaster>
+        <managingEditor>kela@inductor.me (inductor)</managingEditor>
+        <image>
+            <url>https://deploy.am/img/icons/ogp_tw.jpg</url>
+            <title>Deploy.am -コードを書かないエンジニアでも楽しめるPodcast-</title>
+            <link>https://deploy.am</link>
+        </image>
+        <itunes:owner>
+            <itunes:name>inductor</itunes:name>
+            <itunes:email>kela@inductor.me</itunes:email>
+        </itunes:owner>
+        <itunes:category text="Technology">
+            <itunes:category text="Tech News"/>
+            <itunes:category text="Software How-To"/>
+        </itunes:category>
+        <itunes:keywords>deploy.am, tech, technology, keyboard, web, development, developer</itunes:keywords>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:image href="https://deploy.am/img/icons/ogp_tw.jpg"/>
+        <atom:link href="https://deploy.am/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Mon, 27 Aug 2018 19:00:00 JST</pubDate>
+        <title>Deploy.am</title>
+        <itunes:author>inductor</itunes:author>
+        <description>各エピソード</description>
+        <itunes:summary>Deploy.amは、「技術系Podcast」の中でも、開発をあまりしない、インフラ(構築やら運用やら)、運用(情シスやら社内SEやら)、サポートエンジニアなどの話を中心に、いろいろな話をしていくPodcastです。</itunes:summary>
+        <itunes:subtitle>Short description of the podcast - 255 character max.</itunes:subtitle>
+        <lastBuildDate>Thu, 02 Feb 2012 00:00:00 EST</lastBuildDate>
+        <item>
+            <title>Verbose title of the episode</title>
+            <description>Verbose description of the episode.</description>
+            <itunes:summary>Duplicate of above verbose description.</itunes:summary>
+            <itunes:subtitle>Short description of the episode - 255 character max.</itunes:subtitle>
+            <itunesu:category itunesu:code="112"/>
+            <enclosure url="http://www.YourSite.com/FILE.EXT" type="audio/mpeg" length="1"/>
+            <guid>http://www.YourSite.com/FILE.EXT</guid>
+            <itunes:duration>H:MM:SS</itunes:duration>
+            <pubDate>Thu, 02 Feb 2012 00:00:00 EST</pubDate>
+        </item>
+    </channel>
+</rss>
