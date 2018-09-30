@@ -17,10 +17,6 @@
         "source": "**",
         "headers": [
           {
-            "key": "Content-Security-Policy",
-            "value": "default-src 'none'; script-src 'self' *.googleapis.com *.googletagmanager.com *.google-analytics.com connect.facebook.net 'unsafe-inline'; style-src 'self' 'unsafe-inline' *.googleapis.com; img-src 'self' *.google-analytics.com *.facebook.com *.googletagmanager.com data:; font-src 'self' *.gstatic.com; prefetch-src 'self'; connect-src 'self'; manifest-src 'self'; frame-src staticxx.facebook.com; frame-ancestors 'self'; base-uri 'self'; form-action 'self'; media-src 'self' https:"
-          },
-          {
             "key": "Content-Security-Policy-Report-Only",
             "value": "default-src 'none'; script-src 'self' *.googleapis.com *.googletagmanager.com *.google-analytics.com connect.facebook.net; style-src 'self' *.googleapis.com; img-src 'self' *.google-analytics.com *.facebook.com *.googletagmanager.com; font-src 'self' *.gstatic.com; prefetch-src 'self'; connect-src 'self'; manifest-src 'self'; frame-src staticxx.facebook.com; frame-ancestors 'self'; base-uri 'self'; form-action 'self'; media-src 'self'; report-uri https://inductor.report-uri.com/r/d/csp/reportOnly"
           },

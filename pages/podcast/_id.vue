@@ -11,9 +11,13 @@
     </div>
 </template>
 <style>
-    .linktoindex {
-        position: fixed;
-        bottom: 0;
-        padding-bottom: 80px;
-    }
+.linktoindex {
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 80px;
+}
 </style>
+
+<script>
+layout: "default";
+</script>

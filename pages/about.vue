@@ -41,3 +41,7 @@
   text-align: left;
 }
 </style>
+
+<script>
+layout: "default";
+</script>
