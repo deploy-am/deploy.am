@@ -1,22 +1,30 @@
 # Deploy.am
 
-> My tiptop Nuxt.js project
+## Dependency requirement for development
+- yarn(1.9.x preferred)
+- Node.js 10.x(10.8.0 and later preferred)
 
 ## Build Setup
 
 ``` bash
 # install dependencies
-$ yarn install
+yarn
 
 # serve with hot reload at localhost:3000
-$ yarn dev
+yarn dev
 
 # build for production and launch server
-$ yarn build
-$ yarn start
+yarn build
+yarn start
 
 # generate static project
-$ yarn generate
+yarn generate
 ```
 
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+## Deployment
+
+Since this project is integrated with Netlify, just by pushing you can release your changes whenever you want :)
+
+## Contribution
+
+Please fork and push your changes, then make a PR to this repository.
