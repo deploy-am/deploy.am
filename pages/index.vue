@@ -12,7 +12,11 @@
 </template>
 
 <style>
-    .disctiption {
-        text-align: left;
-    }
+.disctiption {
+  text-align: left;
+}
 </style>
+
+<script>
+layout: "default";
+</script>

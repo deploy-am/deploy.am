@@ -32,42 +32,46 @@
     </div>
 </template>
 <style>
-    .text {
-        font-size: 14px;
-    }
+.text {
+  font-size: 14px;
+}
 
-    .item {
-        margin-bottom: 18px;
-    }
+.item {
+  margin-bottom: 18px;
+}
 
-    .clearfix:before,
-    .clearfix:after {
-        display: table;
-        content: "";
-    }
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+}
 
-    .clearfix:after {
-        clear: both
-    }
+.clearfix:after {
+  clear: both;
+}
 
-    .box-card {
-        text-align: left;
-        margin-bottom: 5px;
-    }
+.box-card {
+  text-align: left;
+  margin-bottom: 5px;
+}
 
-    span.podcast-subtitle {
-        float: right;
-    }
+span.podcast-subtitle {
+  float: right;
+}
 
-    @media screen and (min-width: 428px) {
-        span.podcast-subtitle {
-            padding-right: 60%;
-        }
-    }
+@media screen and (min-width: 428px) {
+  span.podcast-subtitle {
+    padding-right: 60%;
+  }
+}
 
-    @media screen and (max-width: 427px) {
-        span.podcast-subtitle {
-            padding-right: 20%;
-        }
-    }
+@media screen and (max-width: 427px) {
+  span.podcast-subtitle {
+    padding-right: 20%;
+  }
+}
 </style>
+
+<script>
+layout: "default";
+</script>
