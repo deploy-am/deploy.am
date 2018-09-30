@@ -2,6 +2,7 @@ defaults: &defaults
   working_directory: ~/deploy.am
   docker:
   - image: inductor/firebase-cli-alpine:latest
+
 version: 2
 jobs:
   build:
@@ -20,10 +21,10 @@ jobs:
         - ~/.cache/yarn/
   deploy:
     <<: *defaults
+    steps:
     - checkout
     - restore_cache:
         key: deploy-am-{{ .Branch }}-{{ checksum "package.json" }}
-    steps:
     - run:
         name: "Vue CLI build"
         command: yarn generate
