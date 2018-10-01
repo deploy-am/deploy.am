@@ -3,7 +3,7 @@ defaults: &defaults
   docker:
   - image: inductor/firebase-cli-alpine:latest
 
-version: 2
+version: 2.1
 jobs:
   build:
     <<: *defaults
