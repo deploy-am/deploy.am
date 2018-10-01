@@ -83,7 +83,6 @@ module.exports = {
     /*
      ** You can extend webpack config here
      */
-    vendor: ['ie-buster'],
     extend(config, ctx) {
     }
   },
