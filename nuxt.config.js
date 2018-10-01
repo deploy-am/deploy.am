@@ -84,7 +84,8 @@ module.exports = {
      ** You can extend webpack config here
      */
     vendor: ['ie-buster'],
-    extend(config, ctx) {}
+    extend(config, ctx) {
+    }
   },
   workbox: {
     dev: true //開発環境でもPWAできるように

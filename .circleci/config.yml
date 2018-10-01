@@ -27,7 +27,7 @@ jobs:
         key: deploy-am-{{ .Branch }}-{{ checksum "package.json" }}
     - run:
         name: "Vue CLI build"
-        command: yarn
+        command: yarn generate
     - run:
         name: "Deploy"
         command: firebase deploy --only hosting --token "$FIREBASE_TOKEN"
