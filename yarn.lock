@@ -1072,6 +1072,11 @@
     string-width "^2.0.0"
     strip-ansi "^4.0.0"
 
+"@nuxtjs/google-tag-manager@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/google-tag-manager/-/google-tag-manager-2.0.0.tgz#94052aecab59427ddf854689d635ea5782b0ba0b"
+  integrity sha512-Bv7Azf2w5VhAeM71fdvAffSdAdtjz8PvGPbwjHRAVgdbmbn9g0ZBQZ1Xwivxl6bMUGp6wtkpDv/4qfmPofPk0g==
+
 "@nuxtjs/icon@^2.6.0":
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/@nuxtjs/icon/-/icon-2.6.0.tgz#65295ee059794f01e41a52c4141c06e898e798bc"
