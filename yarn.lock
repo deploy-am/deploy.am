@@ -1062,6 +1062,14 @@
     babel-helper-vue-jsx-merge-props "^2.0.3"
     babel-plugin-transform-vue-jsx "^4.0.1"
 
+"@nuxtjs/browserconfig@^0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/browserconfig/-/browserconfig-0.0.8.tgz#aee66c23a40e07748698320984c126e8375ba020"
+  integrity sha1-ruZsI6QOB3SGmDIJhMEm6DdboCA=
+  dependencies:
+    data2xml "^1.2.5"
+    lodash "^4.17.10"
+
 "@nuxtjs/friendly-errors-webpack-plugin@^2.0.2":
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@nuxtjs/friendly-errors-webpack-plugin/-/friendly-errors-webpack-plugin-2.0.2.tgz#80fd4c4276e87c09a9157a6f433724235eaaaf6e"
@@ -2752,6 +2760,11 @@ dashdash@^1.12.0:
   integrity sha1-hTz6D3y+L+1d4gMmuN1YEDX24vA=
   dependencies:
     assert-plus "^1.0.0"
+
+data2xml@^1.2.5:
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/data2xml/-/data2xml-1.2.5.tgz#054f1d0214033000f4368dba3bb2e00cf0577dc9"
+  integrity sha1-BU8dAhQDMAD0No26O7LgDPBXfck=
 
 date-now@^0.1.4:
   version "0.1.4"

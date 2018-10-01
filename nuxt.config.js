@@ -68,7 +68,10 @@ module.exports = {
     // Doc: https://github.com/nuxt-community/axios-module#usage
     "@nuxtjs/axios",
     "@nuxtjs/pwa",
-    ['@nuxtjs/google-tag-manager', { id: 'GTM-XXXXXXX' }],
+    '@nuxtjs/browserconfig',
+    ['@nuxtjs/google-tag-manager', {
+      id: 'GTM-PDCPXVB'
+    }],
   ],
   /*
    ** Axios module configuration
@@ -84,8 +87,7 @@ module.exports = {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {
-    }
+    extend(config, ctx) {}
   },
   workbox: {
     dev: true //開発環境でもPWAできるように
