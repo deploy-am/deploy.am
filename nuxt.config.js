@@ -87,6 +87,9 @@ module.exports = {
     /*
      ** You can extend webpack config here
      */
+    splitChunks: {
+      layouts: true,
+    },
     extend(config, ctx) {}
   },
   workbox: {
