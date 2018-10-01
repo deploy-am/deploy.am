@@ -25,7 +25,7 @@ yarn generate
 
 ## Deployment
 
-Since this project is integrated with Netlify, just by pushing you can release your changes whenever you want :)
+Since this project is integrated with CircleCI, just by pushing you can release your changes whenever you want :)
 
 ## Contribution
 
