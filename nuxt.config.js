@@ -69,6 +69,8 @@ module.exports = {
     "@nuxtjs/axios",
     "@nuxtjs/pwa",
     '@nuxtjs/browserconfig',
+    '@nuxtjs/sitemap',
+    '@nuxtjs/feed',
     ['@nuxtjs/google-tag-manager', {
       id: 'GTM-PDCPXVB'
     }],
@@ -94,6 +96,15 @@ module.exports = {
   },
   workbox: {
     dev: true //開発環境でもPWAできるように
+  },
+  sitemap: {
+    hostname: 'https://deploy.am',
+    generate: true,
+    gzip: false,
+    exclude: [
+      '/404',
+    ],
+    routes: generateDynamicRoutes,
   },
   manifest: {
     "name": "deploy.am",
