@@ -71,7 +71,7 @@ module.exports = {
     '@nuxtjs/browserconfig',
     ['@nuxtjs/google-tag-manager', {
       id: 'GTM-PDCPXVB',
-      scriptURL: 'https:////www.googletagmanager.com/gtm.js'
+      scriptURL: 'https://www.googletagmanager.com/gtm.js'
     }],
   ],
   /*
