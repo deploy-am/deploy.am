@@ -8,6 +8,7 @@ module.exports = {
    */
   head: {
     title: pkg.name,
+    titleTemplate: '%s - Deploy.am',
     meta: [{
         charset: "utf-8"
       },
