@@ -24,7 +24,7 @@ export default {
   head() {
     let id = this.$route.params.id;
     return {
-      title: `Podcast #${id} - Deploy.am`,
+      title: `Podcast #${id}`,
       meta: [
         {
           hid: `description`,
@@ -34,7 +34,7 @@ export default {
         {
           hid: "og:title",
           name: "og:title",
-          content: "Podcase #${id} - Deploy.am"
+          content: `Podcast #${id} - Deploy.am`
         },
         {
           hid: "og:description",
