@@ -100,7 +100,7 @@ module.exports = {
     dev: true //開発環境でもPWAできるように
   },
   manifest: {
-    "name": "deploy.am",
+    "name": "Deploy.am",
     "short_name": "Deploy.am",
     "start_url": "https://deploy.am/",
     "display": "standalone",

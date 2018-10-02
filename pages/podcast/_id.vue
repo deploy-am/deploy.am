@@ -20,4 +20,29 @@
 
 <script>
 layout: "default";
+export default {
+  head() {
+    let id = this.$route.params.id;
+    return {
+      title: `Podcast #${id} - Deploy.am`,
+      meta: [
+        {
+          hid: `description`,
+          name: "description",
+          content: `${id}番目に公開されたPodcastです。`
+        },
+        {
+          hid: "og:title",
+          name: "og:title",
+          content: "Podcase #${id} - Deploy.am"
+        },
+        {
+          hid: "og:description",
+          name: "og:description",
+          content: `${id}番目に公開されたPodcastです。`
+        }
+      ]
+    };
+  }
+};
 </script>

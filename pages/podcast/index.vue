@@ -74,4 +74,18 @@ span.podcast-subtitle {
 
 <script>
 layout: "default";
+export default {
+  head() {
+    return {
+      title: 'Podcast list',
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: "Podcast list"
+        }
+      ]
+    };
+  }
+};
 </script>

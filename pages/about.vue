@@ -44,4 +44,28 @@
 
 <script>
 layout: "default";
+export default {
+  head() {
+    return {
+      title: 'About',
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: "About Deploy.am Podcast"
+        },
+        {
+          hid: "og:title",
+          name: "og:title",
+          content: "About"
+        },
+        {
+          hid: "og:description",
+          name: "og:description",
+          content: "About Deploy.am Podcast"
+        }
+      ]
+    };
+  }
+};
 </script>
