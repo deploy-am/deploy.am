@@ -7,7 +7,7 @@ module.exports = {
    ** Headers of the page
    */
   head: {
-    title: pkg.name,
+    title: 'Top',
     titleTemplate: '%s - Deploy.am',
     meta: [{
         charset: "utf-8"
