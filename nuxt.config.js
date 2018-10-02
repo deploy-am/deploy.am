@@ -96,6 +96,11 @@ module.exports = {
     },
     extend(config, ctx) {}
   },
+  generate: {
+    routes: [
+      'podcast/1'
+    ]
+  },
   workbox: {
     dev: true //開発環境でもPWAできるように
   },
