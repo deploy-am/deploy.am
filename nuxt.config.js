@@ -91,6 +91,8 @@ module.exports = {
      */
     splitChunks: {
       layouts: true,
+      pages: true,
+      commons: true
     },
     extend(config, ctx) {}
   },
