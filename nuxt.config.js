@@ -104,7 +104,6 @@ module.exports = {
     exclude: [
       '/404',
     ],
-    routes: generateDynamicRoutes,
   },
   manifest: {
     "name": "deploy.am",
