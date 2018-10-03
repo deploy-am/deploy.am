@@ -83,6 +83,16 @@ export default {
           hid: "description",
           name: "description",
           content: "Podcast list"
+        },
+        {
+          hid: "og:title",
+          name: "og:title",
+          content: "Podcast list"
+        },
+        {
+          hid: "og:description",
+          name: "og:description",
+          content: "Podcast list"
         }
       ]
     };
