@@ -20,6 +20,66 @@ module.exports = {
         hid: "description",
         name: "description",
         content: pkg.description
+      },
+      {
+        hid: "og:title",
+        name: "og:title",
+        content: "Deploy.am"
+      },
+      {
+        hid: "og:description",
+        name: "og:description",
+        content: "コードを書かないエンジニアでも楽しめるPodcast"
+      },
+      {
+        hid: "og:image",
+        name: "og:image",
+        content: "https://deploy.am/img/icons/ogp.jpg"
+      },
+      {
+        hid: "og:image:width",
+        name: "og:image:width",
+        content: "1200"
+      },
+      {
+        hid: "og:image:height",
+        name: "og:image:height",
+        content: "630"
+      },
+      {
+        hid: "og:url",
+        name: "og:url",
+        content: "https://deploy.am/"
+      },
+      {
+        hid: "og:type",
+        name: "og:type",
+        content: "website"
+      },
+      {
+        hid: "og:site_name",
+        name: "og:site_name",
+        content: "Deploy.am"
+      },
+      {
+        hid: "twitter:card",
+        name: "twitter:card",
+        content: "summary_large_image"
+      },
+      {
+        hid: "twitter:site",
+        name: "twitter:site",
+        content: "@deploy_am"
+      },
+      {
+        hid: "twitter:creator",
+        name: "twitter:creator",
+        content: "@deploy_am"
+      },
+      {
+        hid: "twitter:image",
+        name: "twitter:image",
+        content: "https://deploy.am/img/icons/ogp.jpg"
       }
     ],
     link: [{
