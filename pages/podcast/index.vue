@@ -13,11 +13,11 @@
         <!--</el-card>-->
         <el-card class="box-card">
             <div slot="header" class="clearfix">
-                <span class="podcast-title">Deploy.am #0</span>
+                <span class="podcast-title"><router-link to="/podcast/1">Deploy.am #1</router-link></span>
                 <span class="podcast-subtitle"></span>
             </div>
             <div class="text item">
-                <p>Coming soon...</p>
+                <p>ひよこ大佐とinductorの2人で、Podcastを始めた理由や、今までのキャリアの話などをしました。</p>
             </div>
         </el-card>
         <!--<router-link to="/podcast/1"><el-card class="box-card">-->
