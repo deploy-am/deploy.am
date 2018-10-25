@@ -7,6 +7,7 @@
             <li>運用(情シスやら社内SEやら)</li>
             <li>サポートエンジニア</li>
             <p>などの話を中心に、いろいろな話をしていくPodcastです。</p>
+            <p>ハッシュタグ <a href="https://twitter.com/hashtag/deployam?f=tweets&vertical=default&src=hash">#deployam</a> でのご感想をお待ちしております！</p>
         </content>
     </div>
 </template>
