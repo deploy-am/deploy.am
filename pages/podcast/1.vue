@@ -3,7 +3,7 @@
       <h3>Deploy.am #1: 初収録</h3>
       <p><a href="https://twitter.com/hiyoko_taisa">ひよこ大佐</a>と<a href="https://twitter.com/_inductor_">inductor</a>の2人で、Podcastを始めた理由や、</p>
       <p>今までのキャリアの話などをしました。</p>
-      <audio src="https://d1yccfvmd56qwo.cloudfront.net/1.mp3" id="player" preload=metadata controls></audio>
+      <audio src="https://audio.deploy.am/1.mp3" id="player" preload=metadata controls></audio>
       <br>
         <div>
           <span class=nobr>
@@ -284,7 +284,7 @@ if (process.browser) {
     // Set audio file URL.
     let elem = document.createElement("source");
     let time = getStartTime();
-    elem.src = `https://d1yccfvmd56qwo.cloudfront.net/1.mp3#t=${time}`;
+    elem.src = `https://audio.deploy.am/1.mp3#t=${time}`;
     elem.type = "audio/mpeg";
     player.appendChild(elem);
 
