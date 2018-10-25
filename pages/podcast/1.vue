@@ -1,7 +1,8 @@
 <template>
     <div class="about" id="player-container">
       <h3>Deploy.am #1: 初収録</h3>
-      <p><a href="https://twitter.com/hiyoko_taisa">ひよこ大佐</a>と<a href="https://twitter.com/_inductor_">inductor</a>の2人で、Podcastを始めた理由や、今までのキャリアの話などをしました。</p>
+      <p><a href="https://twitter.com/hiyoko_taisa">ひよこ大佐</a>と<a href="https://twitter.com/_inductor_">inductor</a>の2人で、Podcastを始めた理由や、</p>
+      <p>今までのキャリアの話などをしました。</p>
       <audio src="https://d1yccfvmd56qwo.cloudfront.net/1.mp3" id="player" preload=metadata controls></audio>
       <br>
         <div>
@@ -16,9 +17,10 @@
       <span class="player-control" onclick="player.currentTime+=5; return false">+5秒</span> /
       <span class="player-control" onclick="player.currentTime+=15; return false">+15秒</span>
     </span>
+      <p>Music credit: <a href="https://soundcloud.com/user-458397066/jazzblues-music-funky-royalty-free-download-no-copyright-content-acid-jazz?in=subaru-hyuga/sets/royalty-free-bgm-bgm">Opening</a> &amp; <a href="https://soundcloud.com/royalty-free-music-soundotcom/corporate-ukulele-100-free-download-royalty-free-music-happy-positive-business?in=subaru-hyuga/sets/royalty-free-bgm-bgm">Ending</a></p>
     <div class="linktoindex">
       <router-link to="/podcast">Back to Podcast index</router-link>
-      </div>
+    </div>
   </div>
 </div>
 
@@ -141,9 +143,7 @@ if (process.browser) {
 
     let link = document.createElement("a");
     link.textContent = "Podcastアプリで購読";
-    link.href = /iPhone/.test(navigator.userAgent)
-      ? ""
-      : "";
+    link.href = /iPhone/.test(navigator.userAgent) ? "" : "";
     document.getElementById("subscribe").appendChild(link);
   }
 
