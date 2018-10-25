@@ -3,7 +3,7 @@
         <title>Deploy.am</title>
         <link>https://deploy.am</link>
         <image>
-            <url>https://deploy.am/ogp.jpg</url>
+            <url>https://deploy.am/img/icons/ogp.jpg</url>
             <title>Deploy.am</title>
             <link>https://deploy.am</link>
         </image>
@@ -27,7 +27,7 @@
         <itunes:keywords>
             deploy,devops,engineering
         </itunes:keywords>
-        <itunes:image href="https://deploy.am/ogp.jpg"/>
+        <itunes:image href="https://deploy.am/img/icons/ogp.jpg"/>
         <rawvoice:rating>TV-G</rawvoice:rating>
         <rawvoice:location>Tokyo, Japan</rawvoice:location>
         <rawvoice:frequency>Monthly</rawvoice:frequency>
@@ -50,7 +50,7 @@
             <itunes:summary>
                 ひよこ大佐とinductorの2人で、Podcastを始めた理由や、今までのキャリアの話などをしました。
             </itunes:summary>
-            <itunes:image href="https://deploy.am/ogp.jpg"/>
+            <itunes:image href="https://deploy.am/img/icons/ogp.jpg"/>
             <itunes:keywords>
                 deploy,devops,engineering
             </itunes:keywords>
