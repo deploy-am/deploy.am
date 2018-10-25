@@ -1,0 +1,60 @@
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/" version="2.0">
+    <channel>
+        <title>Deploy.am</title>
+        <link>https://deploy.am</link>
+        <image>
+            <url>https://deploy.am/ogp.jpg</url>
+            <title>Deploy.am</title>
+            <link>https://deploy.am</link>
+        </image>
+        <description>
+            コードを書かないエンジニアでも楽しめるPodcast
+        </description>
+        <language>ja-jp</language>
+        <copyright>Deploy.am 2018</copyright>
+        <atom:link href="https://deploy.am/podcast.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Thu, 25 Oct 2018 20:00:00 JST</lastBuildDate>
+        <itunes:author>inductor</itunes:author>
+        <itunes:summary>
+            コードを書かないエンジニアでも楽しめるPodcast
+        </itunes:summary>
+        <itunes:subtitle>コードを書かないエンジニアでも楽しめるPodcast</itunes:subtitle>
+        <itunes:owner>
+            <itunes:name>inductor</itunes:name>
+            <itunes:email>inductor.kela@gmail.com</itunes:email>
+        </itunes:owner>
+        <itunes:explicit>No</itunes:explicit>
+        <itunes:keywords>
+            deploy,devops,engineering
+        </itunes:keywords>
+        <itunes:image href="https://deploy.am/ogp.jpg"/>
+        <rawvoice:rating>TV-G</rawvoice:rating>
+        <rawvoice:location>Tokyo, Japan</rawvoice:location>
+        <rawvoice:frequency>Monthly</rawvoice:frequency>
+        <itunes:category text="Technology"/>
+        <pubDate>Thu, 25 Oct 2018 20:00:00 JST</pubDate>
+        <item>
+            <title>#1: 初収録</title>
+            <link>
+                https://audio.deploy.am/1.mp3
+            </link>
+            <pubDate>Thu, 25 Oct 2018 20:00:00 JST</pubDate>
+            <description>
+                ひよこ大佐とinductorの2人で、Podcastを始めた理由や、今までのキャリアの話などをしました。
+            </description>
+            <enclosure url="https://audio.deploy.am/1.mp3" type="audio/mpeg"/>
+            <guid>
+                https://audio.deploy.am/1.mp3
+            </guid>
+            <itunes:duration>19:07</itunes:duration>
+            <itunes:summary>
+                ひよこ大佐とinductorの2人で、Podcastを始めた理由や、今までのキャリアの話などをしました。
+            </itunes:summary>
+            <itunes:image href="https://deploy.am/ogp.jpg"/>
+            <itunes:keywords>
+                deploy,devops,engineering
+            </itunes:keywords>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+    </channel>
+</rss>

@@ -142,8 +142,8 @@ if (process.browser) {
     let link = document.createElement("a");
     link.textContent = "Podcastアプリで購読";
     link.href = /iPhone/.test(navigator.userAgent)
-      ? "https://itunes.apple.com/jp/podcast/turing-complete-fm/id1338596139?mt=2"
-      : "intent://feeds.turingcomplete.fm/tcfm#Intent;scheme=pcast;S.browser_fallback_url=https://turingcomplete.fm/apps;end";
+      ? ""
+      : "";
     document.getElementById("subscribe").appendChild(link);
   }
 
