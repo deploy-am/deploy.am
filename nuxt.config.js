@@ -99,6 +99,11 @@ module.exports = {
         type: "image/x-icon",
         href: "/favicon-96x96.png",
         sizes: "96x96"
+      },
+      {
+        rel: "alternate",
+        type: "application/rss+xml",
+        href: "/podcast.xml"
       }
     ]
   },

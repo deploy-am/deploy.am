@@ -1,4 +1,4 @@
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/" version="2.0">
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/" version="2.0">
     <channel>
         <title>Deploy.am</title>
         <link>https://deploy.am</link>
@@ -14,6 +14,8 @@
         <copyright>Deploy.am 2018</copyright>
         <atom:link href="https://deploy.am/podcast.xml" rel="self" type="application/rss+xml"/>
         <lastBuildDate>Thu, 25 Oct 2018 20:00:00 JST</lastBuildDate>
+        <googleplay:author>inductor</googleplay:author>
+        <googleplay:image href="https://deploy.am/img/icons/podcast.jpg"/>
         <itunes:author>inductor</itunes:author>
         <itunes:summary>
             コードを書かないエンジニアでも楽しめるPodcast
