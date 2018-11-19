@@ -17,7 +17,8 @@
       <span class="player-control" onclick="player.currentTime+=5; return false">+5秒</span> /
       <span class="player-control" onclick="player.currentTime+=15; return false">+15秒</span>
     </span>
-      <p>Music credit: <a href="https://soundcloud.com/user-458397066/jazzblues-music-funky-royalty-free-download-no-copyright-content-acid-jazz?in=subaru-hyuga/sets/royalty-free-bgm-bgm">Opening</a> &amp; <a href="https://soundcloud.com/royalty-free-music-soundotcom/corporate-ukulele-100-free-download-royalty-free-music-happy-positive-business?in=subaru-hyuga/sets/royalty-free-bgm-bgm">Ending</a></p>
+    <p>Music credit: <a href="https://soundcloud.com/user-458397066/jazzblues-music-funky-royalty-free-download-no-copyright-content-acid-jazz?in=subaru-hyuga/sets/royalty-free-bgm-bgm">Opening</a> &amp; <a href="https://soundcloud.com/royalty-free-music-soundotcom/corporate-ukulele-100-free-download-royalty-free-music-happy-positive-business?in=subaru-hyuga/sets/royalty-free-bgm-bgm">Ending</a></p>
+    <a href="https://twitter.com/intent/tweet?button_hashtag=deployam&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #deployam</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <div class="linktoindex">
       <router-link to="/podcast">Back to Podcast index</router-link>
     </div>
