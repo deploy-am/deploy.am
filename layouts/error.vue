@@ -8,7 +8,14 @@
 
 <script>
 export default {
-  props: ['error'],
+  props: {
+    // Without options, just type reference
+    error: {
+      type: Number,
+      required: true,
+      default: 404
+    }
+  },
   layout: 'default' // you can set a custom layout for the error page
 }
 </script>
