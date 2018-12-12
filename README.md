@@ -3,24 +3,23 @@
 [![CircleCI](https://img.shields.io/circleci/project/github/RedSparr0w/node-csgo-parser.svg)](https://circleci.com/gh/deploy-am/deploy.am)
 
 ## Dependency requirement for development
-- yarn(1.12.x preferred)
-- Node.js 10.x(10.13.0 and later preferred)
+- Node.js 10.x(10.14.2 and later preferred)
 
 ## Build Setup
 
 ``` bash
 # install dependencies
-yarn
+npm install
 
 # serve with hot reload at localhost:3000
-yarn dev
+npm run dev
 
 # build for production and launch server
-yarn build
-yarn start
+npm run build
+npm run start
 
 # generate static project
-yarn generate
+npm run generate
 ```
 
 ## Deployment
