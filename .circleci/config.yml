@@ -2,7 +2,7 @@ version: 2.1
 
 executors:
   default:
-    working_directory: ~/project
+    working_directory: ~/deploy.am
     docker:
       - image: inductor/firebase-cli-alpine:latest
 commands:
@@ -18,7 +18,7 @@ commands:
           name: Cache node dependencies
           key: deploy-am-{{ .Branch }}-{{ checksum "package.json" }}
           paths:
-            - ~/project/node_modules
+            - ~/deploy.am/node_modules
 
 jobs:
   build:
@@ -37,6 +37,9 @@ jobs:
     steps:
     - checkout
     - restore_modules
+    - run:
+        name: "pwd"
+        command: pwd
     - run:
         name: "list files"
         command: ls -alrt
