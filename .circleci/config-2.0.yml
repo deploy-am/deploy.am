@@ -1,0 +1,87 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/project
+    docker:
+    - image: inductor/firebase-cli-alpine:latest
+    steps:
+    - checkout
+    - restore_cache:
+        key: deploy-am-{{ .Branch }}-{{ checksum "package.json" }}
+    - run:
+        name: Run npm install
+        command: npm install
+    - save_cache:
+        key: deploy-am-{{ .Branch }}-{{ checksum "package.json" }}
+        paths:
+        - ~/project/node_modules
+  deploy:
+    working_directory: ~/project
+    docker:
+    - image: inductor/firebase-cli-alpine:latest
+    steps:
+    - checkout
+    - restore_cache:
+        key: deploy-am-{{ .Branch }}-{{ checksum "package.json" }}
+    - run:
+        name: Vue CLI build
+        command: npm run generate
+    - run:
+        name: Deploy
+        command: firebase deploy --only hosting --token "$FIREBASE_TOKEN"
+workflows:
+  build-and-deploy:
+    jobs:
+    - build
+    - deploy:
+        filters:
+          branches:
+            only: master
+        requires:
+        - build
+  version: 2
+
+# Original config.yml file:
+# defaults: &defaults
+#   working_directory: ~/project
+#   docker:
+#   - image: inductor/firebase-cli-alpine:latest
+# 
+# version: 2.1
+# jobs:
+#   build:
+#     <<: *defaults
+#     steps:
+#     - checkout
+#     - restore_cache:
+#         key: deploy-am-{{ .Branch }}-{{ checksum \"package.json\" }}
+#     - run:
+#         name: \"Run npm install\"
+#         command: npm install
+#     - save_cache:
+#         key: deploy-am-{{ .Branch }}-{{ checksum \"package.json\" }}
+#         paths:
+#         - ~/project/node_modules
+#   deploy:
+#     <<: *defaults
+#     steps:
+#     - checkout
+#     - restore_cache:
+#         key: deploy-am-{{ .Branch }}-{{ checksum \"package.json\" }}
+#     - run:
+#         name: \"Vue CLI build\"
+#         command: npm run generate
+#     - run:
+#         name: \"Deploy\"
+#         command: firebase deploy --only hosting --token \"$FIREBASE_TOKEN\"
+# 
+# workflows:
+#   build-and-deploy:
+#     jobs:
+#     - build
+#     - deploy:
+#         requires:
+#         - build
+#         filters:
+#           branches:
+#             only: master
