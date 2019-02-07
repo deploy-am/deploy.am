@@ -38,12 +38,6 @@ jobs:
     - checkout
     - restore_modules
     - run:
-        name: "pwd"
-        command: pwd
-    - run:
-        name: "list files"
-        command: ls -alrt
-    - run:
         name: "Vue CLI build"
         command: yarn generate
     - run:
