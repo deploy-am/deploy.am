@@ -1,32 +1,48 @@
-defaults: &defaults
-  working_directory: ~/project
-  docker:
-  - image: inductor/firebase-cli-alpine:latest
-
 version: 2.1
+
+executors:
+  default:
+    working_directory: ~/project
+    docker:
+      - image: inductor/firebase-cli-alpine:latest
+commands:
+  restore_modules:
+    steps:
+      - restore_cache:
+          name: Restore node dependencies
+          key: deploy-am-{{ .Branch }}-{{ checksum "package.json" }}
+
+  save_modules:
+    steps:
+      - save_cache:
+          name: Cache node dependencies
+          key: deploy-am-{{ .Branch }}-{{ checksum "package.json" }}
+          paths:
+            - ~/project/node_modules
+
 jobs:
   build:
-    <<: *defaults
+    executor:
+      name: default
     steps:
     - checkout
-    - restore_cache:
-        key: deploy-am-{{ .Branch }}-{{ checksum "package.json" }}
+    - restore_modules
     - run:
         name: "Run npm install"
-        command: npm install
-    - save_cache:
-        key: deploy-am-{{ .Branch }}-{{ checksum "package.json" }}
-        paths:
-        - ~/project/node_modules
+        command: yarn install
+    - save_modules
   deploy:
-    <<: *defaults
+    executor:
+      name: default
     steps:
     - checkout
-    - restore_cache:
-        key: deploy-am-{{ .Branch }}-{{ checksum "package.json" }}
+    - restore_modules
+    - run:
+        name: "list files"
+        command: ls -alrt
     - run:
         name: "Vue CLI build"
-        command: npm run generate
+        command: yarn generate
     - run:
         name: "Deploy"
         command: firebase deploy --only hosting --token "$FIREBASE_TOKEN"
