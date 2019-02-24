@@ -58,5 +58,28 @@
             </itunes:keywords>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>#2: 久しぶりの収録</title>
+            <link>
+                https://audio.deploy.am/2.mp3
+            </link>
+            <pubDate>Mon, 25 Feb 2019 08:00:00 JST</pubDate>
+            <description>
+                ひよこ大佐とinductorの2人で、エンジニアとしての勉強法の話や、自分たちのキャリアパス、読書などの話をしました。
+            </description>
+            <enclosure url="https://audio.deploy.am/2.mp3" type="audio/mpeg"/>
+            <guid>
+                https://audio.deploy.am/2.mp3
+            </guid>
+            <itunes:duration>1:22:26</itunes:duration>
+            <itunes:summary>
+                ひよこ大佐とinductorの2人で、エンジニアとしての勉強法の話や、自分たちのキャリアパス、読書などの話をしました。
+            </itunes:summary>
+            <itunes:image href="https://deploy.am/img/icons/podcast.jpg"/>
+            <itunes:keywords>
+                deploy,devops,engineering
+            </itunes:keywords>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>

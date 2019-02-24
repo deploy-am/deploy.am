@@ -12,14 +12,25 @@
     <!--</div>-->
     <!--</el-card>-->
     <el-card class="box-card">
-      <div 
-        slot="header" 
+      <div
+        slot="header"
         class="clearfix">
         <span class="podcast-title"><router-link to="/podcast/1">Deploy.am #1</router-link></span>
         <span class="podcast-subtitle"/>
       </div>
       <div class="text item">
         <p>ひよこ大佐とinductorの2人で、Podcastを始めた理由や、今までのキャリアの話などをしました。</p>
+      </div>
+    </el-card>
+    <el-card class="box-card">
+      <div
+        slot="header"
+        class="clearfix">
+        <span class="podcast-title"><router-link to="/podcast/2">Deploy.am #2</router-link></span>
+        <span class="podcast-subtitle"/>
+      </div>
+      <div class="text item">
+        <p>ひよこ大佐とinductorの2人で、エンジニアとしての勉強法の話や、自分たちのキャリアパス、読書などの話をしました。</p>
       </div>
     </el-card>
     <!--<router-link to="/podcast/1"><el-card class="box-card">-->
