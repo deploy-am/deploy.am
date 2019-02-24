@@ -2,7 +2,7 @@
   <div
     id="player-container"
     class="about">
-    <h3>Deploy.am #1: 初収録</h3>
+    <h3>Deploy.am #2: 久しぶりの収録</h3>
     <p><a href="https://twitter.com/hiyoko_taisa">ひよこ大佐</a>と<a href="https://twitter.com/_inductor_">inductor</a>の2人で、エンジニアとしての勉強法の話や、自分たちのキャリアパス、読書などの話をしました。</p>
     <audio
       id="player"
@@ -118,22 +118,22 @@ layout: 'default'
 export default {
   head() {
     return {
-      title: `Podcast #1`,
+      title: `Podcast #2`,
       meta: [
         {
           hid: `description`,
           name: 'description',
-          content: `ひよこ大佐とinductorの2人で、Podcastを始めた理由や、今までのキャリアの話などをしました。`
+          content: `ひよこ大佐とinductorの2人で、エンジニアとしての勉強法の話や、自分たちのキャリアパス、読書などの話をしました。`
         },
         {
           hid: 'og:title',
           name: 'og:title',
-          content: `Podcast #1: 初収録 - Deploy.am`
+          content: `Podcast #2: 久しぶりの収録 - Deploy.am`
         },
         {
           hid: 'og:description',
           name: 'og:description',
-          content: `ひよこ大佐とinductorの2人で、Podcastを始めた理由や、今までのキャリアの話などをしました。`
+          content: `ひよこ大佐とinductorの2人で、エンジニアとしての勉強法の話や、自分たちのキャリアパス、読書などの話をしました。`
         }
       ]
     }
