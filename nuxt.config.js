@@ -8,6 +8,9 @@ module.exports = {
    */
   head: {
     title: 'Top',
+    htmlAttrs: {
+      lang: 'ja-JP'
+    },
     titleTemplate: '%s - Deploy.am',
     meta: [
       {
