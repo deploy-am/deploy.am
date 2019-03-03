@@ -3,7 +3,7 @@
     id="player-container"
     class="about">
     <h3>Deploy.am #2: 久しぶりの収録</h3>
-    <p><a href="https://twitter.com/hiyoko_taisa">ひよこ大佐</a>と<a href="https://twitter.com/_inductor_">inductor</a>の2人で、エンジニアとしての勉強法の話や、自分たちのキャリアパス、読書などの話をしました。</p>
+    <p>ひよこ大佐(<a href="https://twitter.com/hiyoko_taisa">@hiyoko_taisa</a>)とinductor(<a href="https://twitter.com/_inductor_">@_inductor_</a>)の2人で、エンジニアとしての勉強法の話や、自分たちのキャリアパス、読書などの話をしました。</p>
     <audio
       id="player"
       src="https://audio.deploy.am/2.mp3"

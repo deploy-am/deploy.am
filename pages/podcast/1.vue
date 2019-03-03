@@ -1,49 +1,49 @@
 <template>
-  <div 
-    id="player-container" 
+  <div
+    id="player-container"
     class="about">
     <h3>Deploy.am #1: 初収録</h3>
-    <p><a href="https://twitter.com/hiyoko_taisa">ひよこ大佐</a>と<a href="https://twitter.com/_inductor_">inductor</a>の2人で、Podcastを始めた理由や、</p>
+    <p>ひよこ大佐(<a href="https://twitter.com/hiyoko_taisa">@hiyoko_taisa</a>)とinductor(<a href="https://twitter.com/_inductor_">@_inductor_</a>)の2人で、Podcastを始めた理由や、</p>
     <p>今までのキャリアの話などをしました。</p>
-    <audio 
-      id="player" 
-      src="https://audio.deploy.am/1.mp3" 
-      preload="metadata" 
+    <audio
+      id="player"
+      src="https://audio.deploy.am/1.mp3"
+      preload="metadata"
       controls/>
     <br>
     <div>
       <span class="nobr">
         速度 x<span id="current-rate">1.0</span>
-        (<span 
-          class="player-control" 
+        (<span
+          class="player-control"
           onclick="player.playbackRate-=0.1; return false">遅く</span> /
-        <span 
-          class="player-control" 
+        <span
+          class="player-control"
           onclick="player.playbackRate+=0.1; return false">速く</span>)
       </span>
-      <span 
-        class="nobr" 
+      <span
+        class="nobr"
         style="margin: 0 1em">
-        <span 
-          class="player-control" 
+        <span
+          class="player-control"
           onclick="player.currentTime-=15; return false">-15秒</span> /
-        <span 
-          class="player-control" 
+        <span
+          class="player-control"
           onclick="player.currentTime-=5; return false">-5秒</span> /
-        <span 
-          class="player-control" 
+        <span
+          class="player-control"
           onclick="player.currentTime+=5; return false">+5秒</span> /
-        <span 
-          class="player-control" 
+        <span
+          class="player-control"
           onclick="player.currentTime+=15; return false">+15秒</span>
       </span>
       <p>Music credit: <a href="https://soundcloud.com/user-458397066/jazzblues-music-funky-royalty-free-download-no-copyright-content-acid-jazz?in=subaru-hyuga/sets/royalty-free-bgm-bgm">Opening</a> &amp; <a href="https://soundcloud.com/royalty-free-music-soundotcom/corporate-ukulele-100-free-download-royalty-free-music-happy-positive-business?in=subaru-hyuga/sets/royalty-free-bgm-bgm">Ending</a></p>
-      <a 
-        href="https://twitter.com/intent/tweet?button_hashtag=deployam&ref_src=twsrc%5Etfw" 
-        class="twitter-hashtag-button" 
-        data-show-count="false">Tweet #deployam</a><script 
-          async 
-          src="https://platform.twitter.com/widgets.js" 
+      <a
+        href="https://twitter.com/intent/tweet?button_hashtag=deployam&ref_src=twsrc%5Etfw"
+        class="twitter-hashtag-button"
+        data-show-count="false">Tweet #deployam</a><script
+          async
+          src="https://platform.twitter.com/widgets.js"
           charset="utf-8"/>
       <div class="linktoindex">
         <router-link to="/podcast">Back to Podcast index</router-link>
