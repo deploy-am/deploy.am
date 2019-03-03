@@ -19,7 +19,7 @@
         <span class="podcast-subtitle"/>
       </div>
       <div class="text item">
-        <p>ひよこ大佐とinductorの2人で、Podcastを始めた理由や、今までのキャリアの話などをしました。</p>
+        <p>ひよこ大佐(@hiyoko_taisa)とinductor(@_inductor_)の2人で、Podcastを始めた理由や、今までのキャリアの話などをしました。</p>
       </div>
     </el-card>
     <el-card class="box-card">
@@ -30,7 +30,7 @@
         <span class="podcast-subtitle"/>
       </div>
       <div class="text item">
-        <p>ひよこ大佐とinductorの2人で、エンジニアとしての勉強法の話や、自分たちのキャリアパス、読書などの話をしました。</p>
+        <p>ひよこ大佐(@hiyoko_taisa)とinductor(@_inductor_)の2人で、エンジニアとしての勉強法の話や、自分たちのキャリアパス、読書などの話をしました。</p>
       </div>
     </el-card>
     <!--<router-link to="/podcast/1"><el-card class="box-card">-->
