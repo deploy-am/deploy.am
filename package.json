@@ -19,7 +19,7 @@
     "@nuxtjs/axios": "^5.0.0",
     "@nuxtjs/browserconfig": "^0.0.8",
     "@nuxtjs/google-tag-manager": "^2.0.0",
-    "@nuxtjs/pwa": "3.0.0-beta.14",
+    "@nuxtjs/pwa": "3.0.0-beta.19",
     "cross-env": "^5.2.0",
     "element-ui": "2.7.2",
     "express": "^4.16.3",
