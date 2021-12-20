@@ -12,16 +12,16 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.0.0",
+    "@nuxtjs/axios": "5.13.6",
     "@nuxtjs/browserconfig": "^0.0.8",
     "@nuxtjs/google-tag-manager": "^2.0.0",
     "@nuxtjs/pwa": "3.3.5",
     "cross-env": "^5.2.0",
-    "element-ui": "2.7.2",
+    "element-ui": "2.15.6",
     "express": "^4.16.3",
-    "ie-buster": "^1.1.0",
+    "ie-buster": "^2.0.1",
     "node-sass": "^6.0.1",
-    "nuxt": "2.15.8",
+    "nuxt-edge": "^2.16.0-27332655.777a4b7f",
     "sass-loader": "10",
     "style-loader": "^0.23.0"
   },
@@ -30,6 +30,7 @@
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fortawesome/vue-fontawesome": "^2.0.6",
+    "@nuxt/bridge": "npm:@nuxt/bridge-edge",
     "@nuxtjs/fontawesome": "^1.1.2",
     "babel-eslint": "^8.2.1",
     "eslint": "^5.0.1",
@@ -38,6 +39,7 @@
     "eslint-plugin-prettier": "2.6.2",
     "eslint-plugin-vue": "^4.0.0",
     "nodemon": "^1.11.0",
-    "prettier": "1.14.3"
+    "prettier": "1.14.3",
+    "typescript": "^4.5.4"
   }
 }
