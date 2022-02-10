@@ -20,7 +20,7 @@
     "element-ui": "2.15.6",
     "express": "^4.16.3",
     "ie-buster": "^2.0.1",
-    "node-sass": "^6.0.1",
+    "node-sass": "^7.0.0",
     "nuxt-edge": "^2.16.0-27332655.777a4b7f",
     "sass-loader": "10",
     "style-loader": "^0.23.0"
